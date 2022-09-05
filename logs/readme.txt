@@ -1,0 +1,1 @@
+For application logs, loguru can be used.
