@@ -34,7 +34,7 @@ def im_comparator(dataPath: str) -> list:
 
 rootDir = os.path.abspath(os.curdir)
 
-imagesPath = rootDir + '\data\image'
+imagesPath = rootDir + '\data\original'
 
 shape_list = im_shape_occurance(imagesPath)
 
@@ -44,5 +44,3 @@ for shape_i in shape_list:
 similarity_list = im_comparator(imagesPath)
 
 print(f'different images: {len(similarity_list)}')
-
-print("that's all folks")
